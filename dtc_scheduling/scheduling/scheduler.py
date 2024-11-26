@@ -4,9 +4,7 @@ from typing import List
 from tabulate import tabulate
 
 def schedule_crews(crews: List[CrewMember], buses: List[Bus], shifts: List[Shift]):
-    """
-    Assigns crew members to buses and shifts dynamically, avoiding repeated shift assignments across weeks.
-    """
+   
     assignments = []
 
     # Separate crews by role
